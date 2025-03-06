@@ -1,25 +1,35 @@
-import logo from './logo.svg';
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { ToastContainer } from 'react-toastify';
+import Home from './components/Dashboard/Home';
+import Video from './components/Video';
+import Login from './components/Login';
+import Signup from './components/Signup';
+import Dashboard from './components/Dashboard/Dashboard';
+import MyVideos from './components/Dashboard/MyVideos';
+import Upload from './components/Dashboard/Upload';
+import SearchResults from './components/SearchResults';
 import './App.css';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <Router>
+            <div className="App">
+                <Routes>
+                    <Route path="/signup" element={<Signup />} />
+                    <Route path="/login" element={<Login />} />
+                    <Route path="/video" element={<Video />} />
+                    <Route path="/search" element={<SearchResults />} />
+                    <Route path="/dashboard" element={<Dashboard />}>
+                        <Route path="home" element={<Home />} />
+                        <Route path="upload" element={<Upload />} />
+                        <Route path="my-videos" element={<MyVideos />} />
+                    </Route>
+                </Routes>
+                <ToastContainer />
+            </div>
+        </Router>
+    );
 }
 
 export default App;
