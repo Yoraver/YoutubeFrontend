@@ -1,5 +1,8 @@
 YoutubeFrontend
+
+
 Description
+
 YoutubeFrontend is a web application built to provide a frontend interface for browsing and viewing YouTube videos. This application leverages the YouTube API to fetch video data and display it in an organized and user-friendly manner.
 
 Features
@@ -42,6 +45,3 @@ This project is licensed under the MIT License.
 Contact
 For any questions or inquiries, please contact Yoraver.
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
