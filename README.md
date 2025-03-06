@@ -1,47 +1,34 @@
-YoutubeFrontend
+# YoutubeFrontend
 
+This is a frontend project for a YouTube-like application.
 
-Description
+## Technologies Used
+- **JavaScript**: Main programming language for the project.
+- **CSS**: Styling language used for designing the UI.
+- **HTML**: Markup language used for structuring the content.
+- **React**: JavaScript library for building user interfaces.
+- **Axios**: Promise-based HTTP client for the browser and node.js.
+- **JWT (JSON Web Tokens)**: Used for securely transmitting information between parties as a JSON object.
 
-YoutubeFrontend is a web application built to provide a frontend interface for browsing and viewing YouTube videos. This application leverages the YouTube API to fetch video data and display it in an organized and user-friendly manner.
+## Getting Started
 
-Features
-Search for YouTube videos
-View video details and statistics
-Responsive design for various devices
-Installation
-Follow the steps below to set up the project on your local machine:
+To get a local copy up and running follow these simple steps.
 
-Clone the repository
+### Prerequisites
 
-bash
-git clone https://github.com/Yoraver/YoutubeFrontend.git
-cd YoutubeFrontend
-Install dependencies
+- Node.js
 
-bash
-npm install
-Usage
-To run the application locally, follow these steps:
+### Installation
 
-Start the development server
+1. Clone the repo
+   ```sh
+   git clone https://github.com/Yoraver/YoutubeFrontend.git
+   cd YoutubeFrontend
 
-bash
-npm start
-Open the application Open your web browser and go to http://localhost:3000
+2. Install NPM packages
+   npm install
 
-Contributing
-Contributions are welcome! Please follow these steps to contribute:
-
-Fork the repository.
-Create a new branch (git checkout -b feature/your-feature-name).
-Make your changes.
-Commit your changes (git commit -m 'Add some feature').
-Push to the branch (git push origin feature/your-feature-name).
-Open a pull request.
-License
-This project is licensed under the MIT License.
-
-Contact
-For any questions or inquiries, please contact Yoraver.
+3. Start the development server
+   npm start
+   
 
